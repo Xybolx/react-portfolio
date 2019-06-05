@@ -1,0 +1,35 @@
+{
+  "name": "react-portfolio",
+  "version": "1.0.0",
+  "description": "my react portfolio",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
+    "start:prod": "node server.js",
+    "start:dev": "concurrently \"nodemon --ignore 'client/*'\" \"npm run client\"",
+    "client": "cd client && npm run start",
+    "seed": "node scripts/seedDB.js",
+    "install": "cd client && npm install",
+    "build": "cd client && npm run build",
+    "heroku-postbuild": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Xybolx/react-portfolio.git"
+  },
+  "author": "mat hayward",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Xybolx/react-portfolio/issues"
+  },
+  "homepage": "https://github.com/Xybolx/react-portfolio#readme",
+  "devDependencies": {
+    "concurrently": "^4.1.0",
+    "nodemon": "^1.19.1"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "if-env": "^1.0.4"
+  }
+}
