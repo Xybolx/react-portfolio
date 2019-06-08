@@ -137,6 +137,34 @@ class Portfolio extends Component {
                             </div>
                         </div>       
                     </div>
+                    <div className="row">
+                        <div id="port-boxxT" className="col-sm-2 col-md-12 col-lg-6">
+                            <h4 className="port-title">M.E.R.N. Messenger</h4>
+                            <img className="img-fluid"
+                                src="2019-06-08 06_01_46-M.E.R.N. Messenger.jpg" alt=""></img>
+                            <div className="linkDiv">
+                                <h5><a className="port-button" href="https://mernmessenger.herokuapp.com"><i className="fab fa-github-square"></i>
+                                    Deployment</a></h5>
+                            </div>
+                            <div>
+                                <h5><a className="port-button" href="https://github.com/Xybolx/chat"><i className="fab fa-github-square"></i>
+                                    Repository</a></h5>
+                            </div>
+                        </div>
+                    <div id="port-boxxT" className="col-sm-2 col-md-12 col-lg-6">
+                        <h4 className="port-title">My React Portfolio</h4>
+                        <img className="img-fluid"
+                            src="2019-06-08 06_03_16-Mat Hayward's React Portfolio.jpg" alt=""></img>
+                        <div className="linkDiv">
+                            <h5><a className="port-button" href="https://mat-hayward.herokuapp.com/"><i className="fab fa-github-square"></i>
+                                Deployment</a></h5>
+                        </div>
+                        <div>
+                            <h5><a className="port-button" href="https://github.com/Xybolx/react-portfolio"><i className="fab fa-github-square"></i>
+                                Repository</a></h5>
+                            </div>
+                        </div>       
+                    </div>
                 </div>
             </div>
         );
