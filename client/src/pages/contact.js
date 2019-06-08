@@ -3,11 +3,6 @@ import { NavLink } from "react-router-dom";
 import Clock from "../components/clock";
 
 class Contact extends Component {
-
-    openLinkedIn = () => {
-        window.open("https://www.linkedin.com/in/mat-hayward-6a622175/", "_blank")
-    };
-
     render() {
         return (
             <div>
@@ -35,10 +30,10 @@ class Contact extends Component {
                     <a style={{ margin: 20 }} href="mailto:xybolx@gmail.com">
                         Gmail&nbsp;<i className="far fa-envelope"></i>
                     </a>
-                        <a onClick={this.openLinkedIn} style={{ margin: 20 }} href="#">
+                        <a style={{ margin: 20 }} href="https://www.linkedin.com/in/mat-hayward-6a622175/" target="_blank">
                             Linked&nbsp;<i className="fab fa-linkedin"></i>
                         </a>
-                            <a style={{ margin: 20 }} href="https://github.com/Xybolx">
+                            <a style={{ margin: 20 }} href="https://github.com/Xybolx" target="_blanks">
                                 GitHub&nbsp;<i className="fab fa-github-square"></i>
                             </a>
                     </span>

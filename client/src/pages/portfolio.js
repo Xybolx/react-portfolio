@@ -31,11 +31,11 @@ class Portfolio extends Component {
                             <img className="img-fluid"
                                 src="2019-04-02 09_00_04-Star Wars Planets Hangman.jpg" alt=""></img>
                             <div className="linkDiv">
-                                <h5><a className="port-button" href="https://xybolx.github.io/JS-Game/"><i className="fab fa-github-square"></i>
+                                <h5><a className="port-button" href="https://xybolx.github.io/JS-Game/" target="_blank"><i className="fab fa-github-square"></i>
                                     Deployment</a></h5>
                             </div>
                             <div>
-                                <h5><a className="port-button" href="https://github.com/Xybolx/JS-Game"><i className="fab fa-github-square"></i>
+                                <h5><a className="port-button" href="https://github.com/Xybolx/JS-Game" target="_blank"><i className="fab fa-github-square"></i>
                                     Repository</a></h5>
                             </div>
                         </div>
@@ -44,11 +44,11 @@ class Portfolio extends Component {
                         <img className="img-fluid"
                             src="2018-12-03 17_03_01-Link's Rupee Collector.jpg" alt=""></img>
                         <div className="linkDiv">
-                            <h5><a className="port-button" href="https://xybolx.github.io/unit-4-game/"><i className="fab fa-github-square"></i>
+                            <h5><a className="port-button" href="https://xybolx.github.io/unit-4-game/" target="_blank"><i className="fab fa-github-square"></i>
                                 Deployment</a></h5>
                         </div>
                         <div>
-                            <h5><a className="port-button" href="https://github.com/Xybolx/unit-4-game"><i className="fab fa-github-square"></i>
+                            <h5><a className="port-button" href="https://github.com/Xybolx/unit-4-game" target="_blank"><i className="fab fa-github-square"></i>
                                 Repository</a></h5>
                             </div>
                         </div>       
@@ -59,11 +59,11 @@ class Portfolio extends Component {
                             <img className="img-fluid"
                                 src="Star Wars - Express.jpg" alt=""></img>
                             <div className="linkDiv">
-                                <h5><a className="port-button" href="https://tranquil-journey-76068.herokuapp.com/"><i className="fab fa-github-square"></i>
+                                <h5><a className="port-button" href="https://tranquil-journey-76068.herokuapp.com/" target="_blank"><i className="fab fa-github-square"></i>
                                     Deployment</a></h5>
                             </div>
                             <div>
-                                <h5><a className="port-button" href="https://github.com/Xybolx/starwars"><i className="fab fa-github-square"></i>
+                                <h5><a className="port-button" href="https://github.com/Xybolx/starwars" target="_blank"><i className="fab fa-github-square"></i>
                                     Repository</a></h5>
                             </div>
                         </div>
@@ -72,11 +72,11 @@ class Portfolio extends Component {
                         <img className="img-fluid"
                             src="2018-12-05 21_10_52-Star Trek Trivia.jpg" alt=""></img>
                         <div className="linkDiv">
-                            <h5><a className="port-button" href="https://xybolx.github.io/TriviaGame/"><i className="fab fa-github-square"></i>
+                            <h5><a className="port-button" href="https://xybolx.github.io/TriviaGame/" target="_blank"><i className="fab fa-github-square"></i>
                                 Deployment</a></h5>
                         </div>
                         <div>
-                            <h5><a className="port-button" href="https://github.com/Xybolx/TriviaGame"><i className="fab fa-github-square"></i>
+                            <h5><a className="port-button" href="https://github.com/Xybolx/TriviaGame" target="_blank"><i className="fab fa-github-square"></i>
                                 Repository</a></h5>
                             </div>
                         </div>       
@@ -87,11 +87,11 @@ class Portfolio extends Component {
                             <img className="img-fluid"
                                 src="NES Giphy-Tastic!.jpg" alt=""></img>
                             <div className="linkDiv">
-                                <h5><a className="port-button" href="https://xybolx.github.io/giphy-tastic/"><i className="fab fa-github-square"></i>
+                                <h5><a className="port-button" href="https://xybolx.github.io/giphy-tastic/" target="_blank"><i className="fab fa-github-square"></i>
                                     Deployment</a></h5>
                             </div>
                             <div>
-                                <h5><a className="port-button" href="https://github.com/Xybolx/giphy-tastic"><i className="fab fa-github-square"></i>
+                                <h5><a className="port-button" href="https://github.com/Xybolx/giphy-tastic" target="_blank"><i className="fab fa-github-square"></i>
                                     Repository</a></h5>
                             </div>
                         </div>
@@ -100,11 +100,11 @@ class Portfolio extends Component {
                         <img className="img-fluid"
                             src="catfish.jpg" alt=""></img>
                         <div className="linkDiv">
-                            <h5><a className="port-button" href="https://rocky-fjord-61195.herokuapp.com/"><i className="fab fa-github-square"></i>
+                            <h5><a className="port-button" href="https://rocky-fjord-61195.herokuapp.com/" target="_blank"><i className="fab fa-github-square"></i>
                                 Deployment</a></h5>
                         </div>
                         <div>
-                            <h5><a className="port-button" href="https://github.com/MochaCosine1206/ChatApp"><i className="fab fa-github-square"></i>
+                            <h5><a className="port-button" href="https://github.com/MochaCosine1206/ChatApp" target="_blank"><i className="fab fa-github-square"></i>
                                 Repository</a></h5>
                             </div>
                         </div>       
@@ -115,11 +115,11 @@ class Portfolio extends Component {
                             <img className="img-fluid"
                                 src="2019-04-02 08_54_09-Favorite Movies.jpg" alt=""></img>
                             <div className="linkDiv">
-                                <h5><a className="port-button" href="https://xybolx.github.io/MovieSearch/"><i className="fab fa-github-square"></i>
+                                <h5><a className="port-button" href="https://xybolx.github.io/MovieSearch/" target="_blank"><i className="fab fa-github-square"></i>
                                     Deployment</a></h5>
                             </div>
                             <div>
-                                <h5><a className="port-button" href="https://github.com/Xybolx/MovieSearch"><i className="fab fa-github-square"></i>
+                                <h5><a className="port-button" href="https://github.com/Xybolx/MovieSearch" target="_blank"><i className="fab fa-github-square"></i>
                                     Repository</a></h5>
                             </div>
                         </div>
@@ -128,11 +128,11 @@ class Portfolio extends Component {
                         <img className="img-fluid"
                             src="FriendFinder.jpg" alt=""></img>
                         <div className="linkDiv">
-                            <h5><a className="port-button" href="https://friend-finder-stalk-app.herokuapp.com/"><i className="fab fa-github-square"></i>
+                            <h5><a className="port-button" href="https://friend-finder-stalk-app.herokuapp.com/" target="_blank"><i className="fab fa-github-square"></i>
                                 Deployment</a></h5>
                         </div>
                         <div>
-                            <h5><a className="port-button" href="https://github.com/Xybolx/FriendFinder"><i className="fab fa-github-square"></i>
+                            <h5><a className="port-button" href="https://github.com/Xybolx/FriendFinder" target="_blank"><i className="fab fa-github-square"></i>
                                 Repository</a></h5>
                             </div>
                         </div>       
@@ -143,11 +143,11 @@ class Portfolio extends Component {
                             <img className="img-fluid"
                                 src="2019-06-08 06_01_46-M.E.R.N. Messenger.jpg" alt=""></img>
                             <div className="linkDiv">
-                                <h5><a className="port-button" href="https://mernmessenger.herokuapp.com"><i className="fab fa-github-square"></i>
+                                <h5><a className="port-button" href="https://mernmessenger.herokuapp.com" target="_blank"><i className="fab fa-github-square"></i>
                                     Deployment</a></h5>
                             </div>
                             <div>
-                                <h5><a className="port-button" href="https://github.com/Xybolx/chat"><i className="fab fa-github-square"></i>
+                                <h5><a className="port-button" href="https://github.com/Xybolx/chat" target="_blank"><i className="fab fa-github-square"></i>
                                     Repository</a></h5>
                             </div>
                         </div>
@@ -156,11 +156,11 @@ class Portfolio extends Component {
                         <img className="img-fluid"
                             src="2019-06-08 06_03_16-Mat Hayward's React Portfolio.jpg" alt=""></img>
                         <div className="linkDiv">
-                            <h5><a className="port-button" href="https://mat-hayward.herokuapp.com/"><i className="fab fa-github-square"></i>
+                            <h5><a className="port-button" href="https://mat-hayward.herokuapp.com/" target="_blank"><i className="fab fa-github-square"></i>
                                 Deployment</a></h5>
                         </div>
                         <div>
-                            <h5><a className="port-button" href="https://github.com/Xybolx/react-portfolio"><i className="fab fa-github-square"></i>
+                            <h5><a className="port-button" href="https://github.com/Xybolx/react-portfolio" target="_blank"><i className="fab fa-github-square"></i>
                                 Repository</a></h5>
                             </div>
                         </div>       
