@@ -27,7 +27,7 @@ class Portfolio extends Component {
                     <h1>Portfolio</h1>
                     <div className="row">
                         <div id="port-boxxT" className="col-sm-6 col-md-6 col-lg-6">
-                            <h4 className="port-title">Star Wars Planets Hangman</h4>
+                            <h4 className="port-title">Planets Hangman</h4>
                             <img className="img-fluid"
                                 src="2019-04-02 09_00_04-Star Wars Planets Hangman.jpg" alt=""></img>
                             <div className="linkDiv">
@@ -124,7 +124,7 @@ class Portfolio extends Component {
                             </div>
                         </div>
                     <div id="port-boxxT" className="col-sm-6 col-md-6 col-lg-6">
-                        <h4 className="port-title">Life Invader Friend Finder</h4>
+                        <h4 className="port-title">Life Invader</h4>
                         <img className="img-fluid"
                             src="FriendFinder.jpg" alt=""></img>
                         <div className="linkDiv">
