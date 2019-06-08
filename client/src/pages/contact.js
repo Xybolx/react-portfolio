@@ -30,7 +30,7 @@ class Contact extends Component {
                     <a style={{ margin: 20 }} href="mailto:xybolx@gmail.com">
                         Gmail&nbsp;<i className="far fa-envelope"></i>
                     </a>
-                        <a style={{ margin: 20 }} href="https://www.linkedin.com/in/mat-hayward-6a622175/">
+                        <a onClick={window.open("https://www.linkedin.com/in/mat-hayward-6a622175/", "_blank")} style={{ margin: 20 }}>
                             Linked&nbsp;<i className="fab fa-linkedin"></i>
                         </a>
                             <a style={{ margin: 20 }} href="https://github.com/Xybolx">
