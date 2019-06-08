@@ -26,7 +26,7 @@ class Portfolio extends Component {
                 <div className="jumbotron jumbotron-fluid">
                     <h1>Portfolio</h1>
                     <div className="row">
-                        <div id="port-boxxT" className="col-sm-2 col-md-6 col-lg-6">
+                        <div id="port-boxxT" className="col-sm-6 col-md-6 col-lg-6">
                             <h4 className="port-title">Star Wars Planets Hangman</h4>
                             <img className="img-fluid"
                                 src="2019-04-02 09_00_04-Star Wars Planets Hangman.jpg" alt=""></img>
@@ -39,7 +39,7 @@ class Portfolio extends Component {
                                     Repository</a></h5>
                             </div>
                         </div>
-                    <div id="port-boxxT" className="col-sm-2 col-md-6 col-lg-6">
+                    <div id="port-boxxT" className="col-sm-6 col-md-6 col-lg-6">
                         <h4 className="port-title">Link's Rupee Collector</h4>
                         <img className="img-fluid"
                             src="2018-12-03 17_03_01-Link's Rupee Collector.jpg" alt=""></img>
@@ -54,7 +54,7 @@ class Portfolio extends Component {
                         </div>       
                     </div>
                     <div className="row">
-                        <div id="port-boxxT" className="col-sm-2 col-md-6 col-lg-6">
+                        <div id="port-boxxT" className="col-sm-6 col-md-6 col-lg-6">
                             <h4 className="port-title">Star Wars Express</h4>
                             <img className="img-fluid"
                                 src="Star Wars - Express.jpg" alt=""></img>
@@ -67,7 +67,7 @@ class Portfolio extends Component {
                                     Repository</a></h5>
                             </div>
                         </div>
-                    <div id="port-boxxT" className="col-sm-2 col-md-6 col-lg-6">
+                    <div id="port-boxxT" className="col-sm-6 col-md-6 col-lg-6">
                         <h4 className="port-title">Star Trek Trivia</h4>
                         <img className="img-fluid"
                             src="2018-12-05 21_10_52-Star Trek Trivia.jpg" alt=""></img>
@@ -82,7 +82,7 @@ class Portfolio extends Component {
                         </div>       
                     </div>
                     <div className="row">
-                        <div id="port-boxxT" className="col-sm-2 col-md-6 col-lg-6">
+                        <div id="port-boxxT" className="col-sm-6 col-md-6 col-lg-6">
                             <h4 className="port-title">NES Giphy-Tastic!</h4>
                             <img className="img-fluid"
                                 src="NES Giphy-Tastic!.jpg" alt=""></img>
@@ -95,7 +95,7 @@ class Portfolio extends Component {
                                     Repository</a></h5>
                             </div>
                         </div>
-                    <div id="port-boxxT" className="col-sm-2 col-md-6 col-lg-6">
+                    <div id="port-boxxT" className="col-sm-6 col-md-6 col-lg-6">
                         <h4 className="port-title">Catfish</h4>
                         <img className="img-fluid"
                             src="catfish.jpg" alt=""></img>
@@ -110,7 +110,7 @@ class Portfolio extends Component {
                         </div>       
                     </div>
                     <div className="row">
-                        <div id="port-boxxT" className="col-sm-2 col-md-6 col-lg-6">
+                        <div id="port-boxxT" className="col-sm-6 col-md-6 col-lg-6">
                             <h4 className="port-title">Favorite Movies</h4>
                             <img className="img-fluid"
                                 src="2019-04-02 08_54_09-Favorite Movies.jpg" alt=""></img>
@@ -123,7 +123,7 @@ class Portfolio extends Component {
                                     Repository</a></h5>
                             </div>
                         </div>
-                    <div id="port-boxxT" className="col-sm-2 col-md-6 col-lg-6">
+                    <div id="port-boxxT" className="col-sm-6 col-md-6 col-lg-6">
                         <h4 className="port-title">Life Invader Friend Finder</h4>
                         <img className="img-fluid"
                             src="FriendFinder.jpg" alt=""></img>
@@ -138,7 +138,7 @@ class Portfolio extends Component {
                         </div>       
                     </div>
                     <div className="row">
-                        <div id="port-boxxT" className="col-sm-2 col-md-6 col-lg-6">
+                        <div id="port-boxxT" className="col-sm-6 col-md-6 col-lg-6">
                             <h4 className="port-title">M.E.R.N. Messenger</h4>
                             <img className="img-fluid"
                                 src="2019-06-08 06_01_46-M.E.R.N. Messenger.jpg" alt=""></img>
@@ -151,7 +151,7 @@ class Portfolio extends Component {
                                     Repository</a></h5>
                             </div>
                         </div>
-                    <div id="port-boxxT" className="col-sm-2 col-md-6 col-lg-6">
+                    <div id="port-boxxT" className="col-sm-6 col-md-6 col-lg-6">
                         <h4 className="port-title">My React Portfolio</h4>
                         <img className="img-fluid"
                             src="2019-06-08 06_03_16-Mat Hayward's React Portfolio.jpg" alt=""></img>
