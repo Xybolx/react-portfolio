@@ -1,5 +1,10 @@
 .App {
   text-align: center;
+  overflow-x: hidden;
+}
+
+body {
+  width: 100%;
 }
 
 .App-logo {
@@ -33,5 +38,32 @@
 }
 
 .jumbotron {
-  background: whitesmoke;
+  background: transparent;
+  padding: 0 0 0 0;
+}
+
+.img-fluid {
+  width: 350px;
+  border: solid cyan;
+  outline: solid black;
+}
+
+.navbar {
+  border-left: solid cyan 15px;
+  border-right: solid cyan 15px;
+}
+
+.linkDiv {
+  margin-top: 10px;
+}
+
+.clock {
+  color: whitesmoke;
+  font-family: "Audiowide", cursive;
+  font-size: small; 
+}
+
+p {
+  margin-right: 10px;
+  margin-left: 10px;
 }

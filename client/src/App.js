@@ -7,7 +7,7 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
+    <div className="jumbotron jumbotron-fluid App">
       <Switch>
         <Route exact path="/" component={About} />
         <Route exact path="/contact" component={Contact} />

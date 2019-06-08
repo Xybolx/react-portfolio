@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
+import Clock from "../components/clock";
 
 class About extends Component {
     render() {
@@ -9,6 +10,7 @@ class About extends Component {
                 <NavLink className="navbar-brand" to="/">
                 <img src="https://jsonworld.com/content/uploads/blog-images/react.png" width="30" height="30" className="d-inline-block align-top" alt="" />
                 Mat Hayward
+                <Clock />
                 </NavLink>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>

@@ -1,14 +1,17 @@
 import React, { Component } from "react";
-import { NavLink, Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
+import Clock from "../components/clock";
 
 class Contact extends Component {
     render() {
         return (
             <div>
+            <div>
             <nav className="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
                 <NavLink className="navbar-brand" to="/">
                 <img src="https://jsonworld.com/content/uploads/blog-images/react.png" width="30" height="30" className="d-inline-block align-top" alt="" />
                 Mat Hayward
+                <Clock />
                 </NavLink>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
@@ -24,17 +27,18 @@ class Contact extends Component {
                 <div className="jumbotron jumbotron-fluid">
                     <h1>Contact</h1>
                 <span>
-                    <Link style={{ margin: 20 }} to="https://github.com/Xybolx">
+                    <a style={{ margin: 20 }} href="mailto:xybolx@gmail.com">
                         Gmail&nbsp;<i className="far fa-envelope"></i>
-                    </Link>
-                        <Link style={{ margin: 20 }} to="https://github.com/Xybolx">
+                    </a>
+                        <a style={{ margin: 20 }} href="https://www.linkedin.com/in/mat-hayward-6a622175/">
                             Linked&nbsp;<i className="fab fa-linkedin"></i>
-                        </Link>
-                            <Link style={{ margin: 20 }} to="https://github.com/Xybolx">
+                        </a>
+                            <a style={{ margin: 20 }} href="https://github.com/Xybolx">
                                 GitHub&nbsp;<i className="fab fa-github-square"></i>
-                            </Link>
+                            </a>
                     </span>
                 </div>
+            </div>
             </div>
         );
     };

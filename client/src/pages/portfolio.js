@@ -1,28 +1,142 @@
 import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
+import Clock from "../components/clock";
 
 class Portfolio extends Component {
     render() {
         return (
             <div>
-            <nav className="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
-                <NavLink className="navbar-brand" to="/">
-                <img src="https://jsonworld.com/content/uploads/blog-images/react.png" width="30" height="30" className="d-inline-block align-top" alt="" />
-                Mat Hayward
-                </NavLink>
-                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                    <span className="navbar-toggler-icon"></span>
-                </button>
-                <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div className="navbar-nav">
-                        <NavLink style={{ color: "cyan" }} className="nav-item nav-link active" to="/portfolio">Portfolio<span className="sr-only">(current)</span></NavLink>
-                        <NavLink style={{ color: "gray" }} className="nav-item nav-link" to="/contact">Contact</NavLink>
-                        <NavLink style={{ color: "gray" }} className="nav-item nav-link" to="/">About</NavLink>
+                <nav className="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+                    <NavLink className="navbar-brand" to="/">
+                        <img src="https://jsonworld.com/content/uploads/blog-images/react.png" width="30" height="30" className="d-inline-block align-top" alt="" />
+                        Mat Hayward
+                        <Clock />
+                    </NavLink>
+                    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span className="navbar-toggler-icon"></span>
+                    </button>
+                    <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div className="navbar-nav">
+                            <NavLink style={{ color: "cyan" }} className="nav-item nav-link active" to="/portfolio">Portfolio<span className="sr-only">(current)</span></NavLink>
+                            <NavLink style={{ color: "gray" }} className="nav-item nav-link" to="/contact">Contact</NavLink>
+                            <NavLink style={{ color: "gray" }} className="nav-item nav-link" to="/">About</NavLink>
+                        </div>
                     </div>
-                </div>
-            </nav>
+                </nav>
                 <div className="jumbotron jumbotron-fluid">
                     <h1>Portfolio</h1>
+                    <div className="row">
+                        <div id="port-boxxT" className="col-sm-2 col-md-12 col-lg-6">
+                            <h4 className="port-title">Star Wars Planets Hangman</h4>
+                            <img className="img-fluid"
+                                src="2019-04-02 09_00_04-Star Wars Planets Hangman.jpg" alt=""></img>
+                            <div className="linkDiv">
+                                <h5><a className="port-button" href="https://xybolx.github.io/JS-Game/"><i className="fab fa-github-square"></i>
+                                    Deployment</a></h5>
+                            </div>
+                            <div>
+                                <h5><a className="port-button" href="https://github.com/Xybolx/JS-Game"><i className="fab fa-github-square"></i>
+                                    Repository</a></h5>
+                            </div>
+                        </div>
+                    <div id="port-boxxT" className="col-sm-2 col-md-12 col-lg-6">
+                        <h4 className="port-title">Link's Rupee Collector</h4>
+                        <img className="img-fluid"
+                            src="2018-12-03 17_03_01-Link's Rupee Collector.jpg" alt=""></img>
+                        <div className="linkDiv">
+                            <h5><a className="port-button" href="https://xybolx.github.io/unit-4-game/"><i className="fab fa-github-square"></i>
+                                Deployment</a></h5>
+                        </div>
+                        <div>
+                            <h5><a className="port-button" href="https://github.com/Xybolx/unit-4-game"><i className="fab fa-github-square"></i>
+                                Repository</a></h5>
+                            </div>
+                        </div>       
+                    </div>
+                    <div className="row">
+                        <div id="port-boxxT" className="col-sm-2 col-md-12 col-lg-6">
+                            <h4 className="port-title">Star Wars Express</h4>
+                            <img className="img-fluid"
+                                src="Star Wars - Express.jpg" alt=""></img>
+                            <div className="linkDiv">
+                                <h5><a className="port-button" href="https://tranquil-journey-76068.herokuapp.com/"><i className="fab fa-github-square"></i>
+                                    Deployment</a></h5>
+                            </div>
+                            <div>
+                                <h5><a className="port-button" href="https://github.com/Xybolx/starwars"><i className="fab fa-github-square"></i>
+                                    Repository</a></h5>
+                            </div>
+                        </div>
+                    <div id="port-boxxT" className="col-sm-2 col-md-12 col-lg-6">
+                        <h4 className="port-title">Star Trek Trivia</h4>
+                        <img className="img-fluid"
+                            src="2018-12-05 21_10_52-Star Trek Trivia.jpg" alt=""></img>
+                        <div className="linkDiv">
+                            <h5><a className="port-button" href="https://xybolx.github.io/TriviaGame/"><i className="fab fa-github-square"></i>
+                                Deployment</a></h5>
+                        </div>
+                        <div>
+                            <h5><a className="port-button" href="https://github.com/Xybolx/TriviaGame"><i className="fab fa-github-square"></i>
+                                Repository</a></h5>
+                            </div>
+                        </div>       
+                    </div>
+                    <div className="row">
+                        <div id="port-boxxT" className="col-sm-2 col-md-12 col-lg-6">
+                            <h4 className="port-title">NES Giphy-Tastic!</h4>
+                            <img className="img-fluid"
+                                src="NES Giphy-Tastic!.jpg" alt=""></img>
+                            <div className="linkDiv">
+                                <h5><a className="port-button" href="https://xybolx.github.io/giphy-tastic/"><i className="fab fa-github-square"></i>
+                                    Deployment</a></h5>
+                            </div>
+                            <div>
+                                <h5><a className="port-button" href="https://github.com/Xybolx/giphy-tastic"><i className="fab fa-github-square"></i>
+                                    Repository</a></h5>
+                            </div>
+                        </div>
+                    <div id="port-boxxT" className="col-sm-2 col-md-12 col-lg-6">
+                        <h4 className="port-title">Catfish</h4>
+                        <img className="img-fluid"
+                            src="catfish.jpg" alt=""></img>
+                        <div className="linkDiv">
+                            <h5><a className="port-button" href="https://rocky-fjord-61195.herokuapp.com/"><i className="fab fa-github-square"></i>
+                                Deployment</a></h5>
+                        </div>
+                        <div>
+                            <h5><a className="port-button" href="https://github.com/MochaCosine1206/ChatApp"><i className="fab fa-github-square"></i>
+                                Repository</a></h5>
+                            </div>
+                        </div>       
+                    </div>
+                    <div className="row">
+                        <div id="port-boxxT" className="col-sm-2 col-md-12 col-lg-6">
+                            <h4 className="port-title">Favorite Movies</h4>
+                            <img className="img-fluid"
+                                src="2019-04-02 08_54_09-Favorite Movies.jpg" alt=""></img>
+                            <div className="linkDiv">
+                                <h5><a className="port-button" href="https://xybolx.github.io/MovieSearch/"><i className="fab fa-github-square"></i>
+                                    Deployment</a></h5>
+                            </div>
+                            <div>
+                                <h5><a className="port-button" href="https://github.com/Xybolx/MovieSearch"><i className="fab fa-github-square"></i>
+                                    Repository</a></h5>
+                            </div>
+                        </div>
+                    <div id="port-boxxT" className="col-sm-2 col-md-12 col-lg-6">
+                        <h4 className="port-title">Life Invader Friend Finder</h4>
+                        <img className="img-fluid"
+                            src="FriendFinder.jpg" alt=""></img>
+                        <div className="linkDiv">
+                            <h5><a className="port-button" href="https://friend-finder-stalk-app.herokuapp.com/"><i className="fab fa-github-square"></i>
+                                Deployment</a></h5>
+                        </div>
+                        <div>
+                            <h5><a className="port-button" href="https://github.com/Xybolx/FriendFinder"><i className="fab fa-github-square"></i>
+                                Repository</a></h5>
+                            </div>
+                        </div>       
+                    </div>
                 </div>
             </div>
         );
