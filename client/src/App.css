@@ -27,11 +27,6 @@ body {
   outline: solid black;
 }
 
-.navbar {
-  border-left: solid cyan;
-  border-right: solid cyan;
-}
-
 .linkDiv {
   margin-top: 10px;
 }
