@@ -128,7 +128,7 @@ class Portfolio extends Component {
                         <img className="img-fluid"
                             src="FriendFinder.jpg" alt=""></img>
                         <div className="linkDiv">
-                            <h5><a className="port-button" href="https://friend-finder-stalk-app.herokuapp.com/" target="_blank"><i className="fab fa-github-square"></i>
+                            <h5><a className="port-button" href="https://friend-finder-stalk-app.herokuapp.com/" target="_blank">&nbsp;&nbsp;&nbsp;<i className="fab fa-github-square"></i>
                                 Deployment</a></h5>
                         </div>
                         <div>
@@ -143,7 +143,7 @@ class Portfolio extends Component {
                             <img className="img-fluid"
                                 src="2019-06-08 06_01_46-M.E.R.N. Messenger.jpg" alt=""></img>
                             <div className="linkDiv">
-                                <h5><a className="port-button" href="https://mernmessenger.herokuapp.com" target="_blank"><i className="fab fa-github-square"></i>
+                                <h5><a className="port-button" href="https://mernmessenger.herokuapp.com" target="_blank">&nbsp;&nbsp;&nbsp;<i className="fab fa-github-square"></i>
                                     Deployment</a></h5>
                             </div>
                             <div>
