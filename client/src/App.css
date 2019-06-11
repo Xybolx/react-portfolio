@@ -23,7 +23,7 @@ body {
 
 .img-fluid {
   width: 350px;
-  border: solid cyan;
+  border: solid rgba(128, 128, 128, 0.568);
   outline: solid black;
 }
 
