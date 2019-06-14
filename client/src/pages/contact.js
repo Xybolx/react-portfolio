@@ -18,9 +18,9 @@ class Contact extends Component {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div className="navbar-nav">
+                        <NavLink style={{ color: "gray" }} className="nav-item nav-link" to="/">About</NavLink>
                         <NavLink style={{ color: "cyan" }} className="nav-item nav-link active" to="/contact">Contact <span className="sr-only">(current)</span></NavLink>
                         <NavLink style={{ color: "gray" }} className="nav-item nav-link" to="/portfolio">Portfolio</NavLink>
-                        <NavLink style={{ color: "gray" }} className="nav-item nav-link" to="/">About</NavLink>
                     </div>
                 </div>
             </nav>
