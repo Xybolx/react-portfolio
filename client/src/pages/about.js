@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 import Clock from "../components/clock";
 
 class About extends Component {
@@ -25,7 +25,7 @@ class About extends Component {
             </nav>
                 <div className="jumbotron jumbotron-fluid">
                     <h1>Mat Hayward</h1>
-                    <p>&nbsp;&nbsp;&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Hanc se tuus Epicurus omnino ignorare dicit quam aut qualem esse velint qui honestate summum bonum metiantur. An vero displicuit ea, quae tributa est animi virtutibus tanta praestantia? Vides igitur, si amicitiam sua caritate metiare, nihil esse praestantius, sin emolumento, summas familiaritates praediorum fructuosorum mercede superari. Ita fit cum gravior, tum etiam splendidior oratio. Sit, inquam, tam facilis, quam vultis, comparatio voluptatis, quid de dolore dicemus? At ille non pertimuit saneque fidenter: Istis quidem ipsis verbis, inquit; Est autem eius generis actio quoque quaedam, et quidem talis, ut ratio postulet agere aliquid et facere eorum. Duo Reges: constructio interrete.</p>
+                    <p>&nbsp;&nbsp;&nbsp;I'm a Full Stack developer with experience building Rest API's, UI's, and SQL and NoSQL databases. As a recent graduate of the University Of Arizona Full Stack Boot Camp, I am looking for an opportunity to prove myself in this industry and I'm ready and willing to listen and learn. I can be reached via the <Link to="/contact">contact</Link> page of this site and you can view some of my work <Link to="/portfolio">here</Link>.</p>
                 </div>
             </div>
         );
