@@ -64,11 +64,8 @@ class Portfolio extends Component {
                                 <span className="sr-only">Previous</span>
                             </a>
                             <a className="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-                                <span className="fa-stack fa-4x">
-                                    <i className="fas fa-square fa-stack-2x"></i>
-                                    <i className="far fa-arrow-alt-circle-right fa-stack-1x"></i>
-                                </span>
-                                <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span className="far fa-arrow-alt-circle-right fa-4x"></span>
+                                {/* <span className="carousel-control-next-icon" aria-hidden="true"></span> */}
                                 <span className="sr-only">Next</span>
                             </a>
                         </div>
