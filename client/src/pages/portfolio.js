@@ -23,9 +23,9 @@ class Portfolio extends Component {
                         </div>
                     </div>
                 </nav>
-                <div className="jumbotron">
+                <div className="jumbotron jumbotron-fluid">
                     <h1>Portfolio</h1>
-                    <div className="container">
+                    <div className="container-fluid">
                         <div className="bd-example">
                             <div id="carouselExampleCaptions" className="carousel slide" data-ride="carousel">
                                 <ol className="carousel-indicators">
