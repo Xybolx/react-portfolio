@@ -48,6 +48,11 @@ p {
 
 .carousel-control-next,
 .carousel-control-prev {
-  bottom: 100px;
-  top: 0px;
+  bottom: 0px;
+  top: 100px;
+  padding: 20px;
+}
+
+.bd-example {
+  margin: 20px;
 }
