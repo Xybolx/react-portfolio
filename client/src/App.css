@@ -62,3 +62,7 @@ p {
 .carousel-item {
   border: solid rgb(134, 133, 133);
 }
+
+.carousel-indicators .active {
+  background: cyan;
+}

@@ -32,6 +32,7 @@ class Portfolio extends Component {
                                     <li data-target="#carouselExampleCaptions" data-slide-to="0" className="active"></li>
                                     <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
                                     <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                                    <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
                                 </ol>
                                 <div className="carousel-inner">
                                     <div className="carousel-item active" data-interval="100000">
@@ -42,7 +43,6 @@ class Portfolio extends Component {
                                                 Deployment</a></h6>
                                             <h6><a className="port-button" href="https://github.com/Xybolx/chat" target="_blank"><i className="fab fa-github-square"></i>
                                                 Repository</a></h6>
-                                            <p>A MERN Full Stack React chat app.</p>
                                         </div>
                                     </div>
                                     <div className="carousel-item" data-interval="100000">
@@ -53,18 +53,16 @@ class Portfolio extends Component {
                                                 Deployment</a></h6>
                                             <h6><a className="port-button" href="https://github.com/MochaCosine1206/ChatApp" target="_blank"><i className="fab fa-github-square"></i>
                                                 Repository</a></h6>
-                                            <p>A group project chat app with multiple rooms.</p>
                                         </div>
                                     </div>
                                     <div className="carousel-item" data-interval="100000">
                                         <img src="2019-04-02 08_54_09-Favorite Movies.jpg" className="d-block w-100" alt="" />
                                         <div className="carousel-caption d-md-block">
                                             <h5>Favorite Movies</h5>
-                                            <h6><a className="port-button" href="https://mernmessenger.herokuapp.com" target="_blank"><i className="fab fa-github-square"></i>
+                                            <h6><a className="port-button" href="https://xybolx.github.io/MovieSearch/" target="_blank"><i className="fab fa-github-square"></i>
                                                 Deployment</a></h6>
-                                            <h6><a className="port-button" href="https://github.com/Xybolx/chat" target="_blank"><i className="fab fa-github-square"></i>
+                                            <h6><a className="port-button" href="https://github.com/Xybolx/MovieSearch" target="_blank"><i className="fab fa-github-square"></i>
                                                 Repository</a></h6>
-                                            <p>Click a movie button to display info; Add a persistent new movie button.</p>
                                         </div>
                                     </div>
                                     <div className="carousel-item" data-interval="100000">
@@ -75,7 +73,6 @@ class Portfolio extends Component {
                                                 Deployment</a></h6>
                                             <h6><a className="port-button" href="https://github.com/Xybolx/unit-4-game" target="_blank"><i className="fab fa-github-square"></i>
                                                 Repository</a></h6>
-                                            <p>My Zelda-themed take on the Crystal Clicking game.</p>
                                         </div>
                                     </div>
                                 </div>
