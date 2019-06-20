@@ -36,7 +36,7 @@ class Portfolio extends Component {
                                 <div className="carousel-inner">
                                     <div className="carousel-item active" data-interval="100000">
                                         <img src="2019-06-17 15_39_42-M.E.R.N. Messenger.jpg" className="d-block w-100" alt="" />
-                                        <div style={{ backgroundColor: "black" }} className="carousel-caption d-md-block">
+                                        <div className="carousel-caption d-md-block">
                                             <h5>M.E.R.N. Messenger</h5>
                                             <h6><a className="port-button" href="https://mernmessenger.herokuapp.com" target="_blank"><i className="fab fa-github-square"></i>
                                                 Deployment</a></h6>
@@ -45,18 +45,37 @@ class Portfolio extends Component {
                                             <p>A MERN Full Stack React chat app.</p>
                                         </div>
                                     </div>
-                                    <div className="carousel-item">
-                                        <img src="..." className="d-block w-100" alt="..." />
-                                        <div className="carousel-caption d-none d-md-block">
-                                            <h5>Second slide label</h5>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    <div className="carousel-item" data-interval="100000">
+                                        <img src="catfish.jpg" className="d-block w-100" alt="" />
+                                        <div className="carousel-caption d-md-block">
+                                            <h5>Catfish</h5>
+                                            <h6><a className="port-button" href="https://rocky-fjord-61195.herokuapp.com/" target="_blank"><i className="fab fa-github-square"></i>
+                                                Deployment</a></h6>
+                                            <h6><a className="port-button" href="https://github.com/MochaCosine1206/ChatApp" target="_blank"><i className="fab fa-github-square"></i>
+                                                Repository</a></h6>
+                                            <p>A group project chat app with multiple rooms.</p>
                                         </div>
                                     </div>
-                                    <div className="carousel-item">
-                                        <img src="..." className="d-block w-100" alt="..." />
-                                        <div className="carousel-caption d-none d-md-block">
-                                            <h5>Third slide label</h5>
-                                            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                                    <div className="carousel-item" data-interval="100000">
+                                        <img src="2019-04-02 08_54_09-Favorite Movies.jpg" className="d-block w-100" alt="" />
+                                        <div className="carousel-caption d-md-block">
+                                            <h5>Favorite Movies</h5>
+                                            <h6><a className="port-button" href="https://mernmessenger.herokuapp.com" target="_blank"><i className="fab fa-github-square"></i>
+                                                Deployment</a></h6>
+                                            <h6><a className="port-button" href="https://github.com/Xybolx/chat" target="_blank"><i className="fab fa-github-square"></i>
+                                                Repository</a></h6>
+                                            <p>Click a movie button to display info; Add a persistent new movie button.</p>
+                                        </div>
+                                    </div>
+                                    <div className="carousel-item" data-interval="100000">
+                                        <img src="2018-12-03 17_03_01-Link's Rupee Collector.jpg" className="d-block w-100" alt="" />
+                                        <div className="carousel-caption d-md-block">
+                                            <h5>Link's Rupee Collector</h5>
+                                            <h6><a className="port-button" href="https://xybolx.github.io/unit-4-game/" target="_blank"><i className="fab fa-github-square"></i>
+                                                Deployment</a></h6>
+                                            <h6><a className="port-button" href="https://github.com/Xybolx/unit-4-game" target="_blank"><i className="fab fa-github-square"></i>
+                                                Repository</a></h6>
+                                            <p>My Zelda-themed take on the Crystal Clicking game.</p>
                                         </div>
                                     </div>
                                 </div>
