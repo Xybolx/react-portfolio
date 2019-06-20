@@ -54,5 +54,10 @@ p {
 }
 
 .bd-example {
-  margin: 20px;
+  margin: 60px;
+}
+
+.carousel-item {
+  border: solid rgba(128, 128, 128, 0.568);
+  outline: solid black;
 }
