@@ -51,6 +51,7 @@ p {
   bottom: 0px;
   top: 100px;
   padding: 20px;
+  margin: 20px;
 }
 
 .bd-example {
@@ -58,6 +59,5 @@ p {
 }
 
 .carousel-item {
-  border: solid rgba(128, 128, 128, 0.568);
-  outline: solid black;
+  border: solid black;
 }

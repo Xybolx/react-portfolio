@@ -38,10 +38,10 @@ class Portfolio extends Component {
                                         <img src="2019-06-17 15_39_42-M.E.R.N. Messenger.jpg" className="d-block w-100" alt="" />
                                         <div style={{ backgroundColor: "black" }} className="carousel-caption d-md-block">
                                             <h5>M.E.R.N. Messenger</h5>
-                                            <h5><a className="port-button" href="https://mernmessenger.herokuapp.com" target="_blank"><i className="fab fa-github-square"></i>
-                                                Deployment</a></h5>
-                                            <h5><a className="port-button" href="https://github.com/Xybolx/chat" target="_blank"><i className="fab fa-github-square"></i>
-                                                Repository</a></h5>
+                                            <h6><a className="port-button" href="https://mernmessenger.herokuapp.com" target="_blank"><i className="fab fa-github-square"></i>
+                                                Deployment</a></h6>
+                                            <h6><a className="port-button" href="https://github.com/Xybolx/chat" target="_blank"><i className="fab fa-github-square"></i>
+                                                Repository</a></h6>
                                             <p>A MERN Full Stack React chat app.</p>
                                         </div>
                                     </div>
@@ -61,11 +61,11 @@ class Portfolio extends Component {
                                     </div>
                                 </div>
                                 <a className="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-                                    <span className="far fa-arrow-alt-circle-left fa-4x"></span>
+                                    <span className="far fa-arrow-alt-circle-left fa-3x"></span>
                                     <span className="sr-only">Previous</span>
                                 </a>
                                 <a className="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-                                    <span className="far fa-arrow-alt-circle-right fa-4x"></span>
+                                    <span className="far fa-arrow-alt-circle-right fa-3x"></span>
                                     <span className="sr-only">Next</span>
                                 </a>
                             </div>
