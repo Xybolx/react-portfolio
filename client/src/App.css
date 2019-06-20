@@ -50,9 +50,16 @@ p {
 .carousel-control-next,
 .carousel-control-prev {
   bottom: 0px;
-  top: 100px;
+  top: 0px;
   padding: 20px;
   margin: 20px;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.carousel-control-next:hover,
+.carousel-control-prev:hover {
+  color: cyan;
+  background: rgba(0, 0, 0, 0.5);
 }
 
 .bd-example {
