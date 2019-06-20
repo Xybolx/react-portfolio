@@ -45,3 +45,9 @@ p {
 .carousel-caption {
   position: static;
 }
+
+.carousel-control-next,
+.carousel-control-prev {
+  bottom: 100px;
+  top: 0px;
+}
