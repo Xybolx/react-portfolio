@@ -35,7 +35,7 @@ class Portfolio extends Component {
                             <div className="carousel-inner">
                                 <div className="carousel-item active">
                                     <img src="2019-06-17 15_39_42-M.E.R.N. Messenger.jpg" className="d-block w-100" alt="" />
-                                    <div style={{ backgroundColor: "black" }} className="carousel-caption d-none d-md-block">
+                                    <div style={{ backgroundColor: "black" }} className="carousel-caption d-md-block">
                                         <h5>M.E.R.N. Messenger</h5>
                                         <h5><a className="port-button" href="https://mernmessenger.herokuapp.com" target="_blank"><i className="fab fa-github-square"></i>
                                             Deployment</a></h5>
