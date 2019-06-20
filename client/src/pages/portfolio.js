@@ -24,7 +24,33 @@ class Portfolio extends Component {
                     </div>
                 </nav>
                 <div className="jumbotron jumbotron-fluid">
-                    <h1>Portfolio</h1>
+                <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
+  <ol className="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div className="carousel-inner">
+    <div className="carousel-item active">
+      <img src="..." className="d-block w-100" alt="..." />
+    </div>
+    <div className="carousel-item">
+      <img src="..." className="d-block w-100" alt="..." />
+    </div>
+    <div className="carousel-item">
+      <img src="..." className="d-block w-100" alt="..." />
+    </div>
+  </div>
+  <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span className="sr-only">Previous</span>
+  </a>
+  <a className="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span className="carousel-control-next-icon" aria-hidden="true"></span>
+    <span className="sr-only">Next</span>
+  </a>
+</div>
+                    {/* <h1>Portfolio</h1>
                     <div className="row">
                         <div id="port-boxxT" className="col-sm-6 col-md-6 col-lg-6">
                             <h4 className="port-title">Planets Hangman</h4>
@@ -165,6 +191,7 @@ class Portfolio extends Component {
                             </div>
                         </div>       
                     </div>
+                </div> */}
                 </div>
             </div>
         );
