@@ -59,7 +59,7 @@ p {
 .carousel-control-next:hover,
 .carousel-control-prev:hover {
   color: cyan;
-  background: rgba(0, 0, 0, 0.5);
+  text-shadow: 1px 1px 1px black;
 }
 
 .bd-example {
