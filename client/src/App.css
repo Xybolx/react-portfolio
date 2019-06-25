@@ -62,6 +62,7 @@ p {
 }
 
 .bd-example {
+  max-width: 768px;
   margin: 20px;
 }
 
