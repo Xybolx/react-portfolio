@@ -23,7 +23,7 @@ class Portfolio extends Component {
                         </div>
                     </div>
                 </nav>
-                <div className="jumbotron jumbotron-fluid">
+                {/* <div className="jumbotron jumbotron-fluid"> */}
                     <h1>Portfolio</h1>
                     <div className="container-fluid">
                         <div className="bd-example">
@@ -229,7 +229,7 @@ class Portfolio extends Component {
                         </div>       
                     </div>
                 </div> */}
-                </div>
+                {/* </div> */}
             </div>
         );
     };
