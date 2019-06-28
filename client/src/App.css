@@ -47,37 +47,32 @@ p {
   background: #343a40;
 }
 
-.carousel-control-next,
-.carousel-control-prev {
-  bottom: 0px;
-  top: 0px;
-  padding: 20px;
-  margin: 20px;
-}
-
-.carousel-control-next:hover,
-.carousel-control-prev:hover {
-  color: cyan;
-  text-shadow: 1px 1px 1px black;
-}
-
 .bd-example {
   max-width: 100%;
   margin-top: 20px;
 }
 
-.carousel-item {
+/* .carousel-item {
   border: solid rgb(134, 133, 133);
+} */
+
+.fa-arrow-alt-circle-left,
+.fa-arrow-alt-circle-right {
+  color: cyan;
 }
 
-.carousel-indicators .active {
-  background: cyan;
+.fa-arrow-alt-circle-left:hover,
+.fa-arrow-alt-circle-right:hover {
+  color: cyan;
+  cursor: pointer;
 }
 
 .fa-bars {
   color: cyan;
+  width: 100%;
 }
 
 .navbar-dark .navbar-toggler-icon {
   background: transparent;
+  width: 40px;
 }
