@@ -22,7 +22,7 @@ body {
 }
 
 .img-fluid {
-  width: 350px;
+  max-width: 100%;
   border: solid rgba(128, 128, 128, 0.568);
   outline: solid black;
 }
@@ -62,8 +62,8 @@ p {
 }
 
 .bd-example {
-  max-width: 768px;
-  margin: 20px;
+  max-width: 100%;
+  margin-top: 20px;
 }
 
 .carousel-item {
@@ -72,4 +72,12 @@ p {
 
 .carousel-indicators .active {
   background: cyan;
+}
+
+.fa-bars {
+  color: cyan;
+}
+
+.navbar-dark .navbar-toggler-icon {
+  background: transparent;
 }

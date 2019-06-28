@@ -23,6 +23,7 @@ class About extends Component {
                     </div>
                 </div>
             </nav>
+            <br />
                 <div className="jumbotron jumbotron-fluid">
                     <h1>Mat Hayward</h1>
                     <p>&nbsp;&nbsp;&nbsp;I'm a Full Stack developer with experience building Rest API's, UI's, and SQL and NoSQL databases. As a recent graduate of the University Of Arizona Full Stack Boot Camp, I am looking for an opportunity to prove myself in this industry and I'm ready and willing to listen and learn. I can be reached via the <Link to="/contact">contact</Link> page of this site and you can view some of my work <Link to="/portfolio">here</Link>.</p>

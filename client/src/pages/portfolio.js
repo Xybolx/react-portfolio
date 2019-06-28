@@ -3,6 +3,7 @@ import { NavLink } from "react-router-dom";
 import Clock from "../components/clock";
 
 class Portfolio extends Component {
+
     render() {
         return (
             <div>
@@ -13,7 +14,7 @@ class Portfolio extends Component {
                         <Clock />
                     </NavLink>
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                        <span className="navbar-toggler-icon"></span>
+                        <span className="navbar-toggler-icon fas fa-bars d-inline-block align-top"></span>
                     </button>
                     <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div className="navbar-nav">
@@ -23,55 +24,69 @@ class Portfolio extends Component {
                         </div>
                     </div>
                 </nav>
-                {/* <div className="jumbotron jumbotron-fluid"> */}
-                    <h1>Portfolio</h1>
-                    <div className="container-fluid">
+                <br />
+                    <h1>My Portfolio</h1>
+                    <div className="col-md-6 offset-md-3">
                         <div className="bd-example">
                             <div id="carouselExampleCaptions" className="carousel slide" data-ride="carousel">
-                                <ol className="carousel-indicators">
-                                    <li data-target="#carouselExampleCaptions" data-slide-to="0" className="active"></li>
-                                    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-                                    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-                                    <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
-                                </ol>
                                 <div className="carousel-inner">
-                                    <div className="carousel-item active" data-interval="100000">
+                                    <div className="carousel-item active">
                                         <img src="2019-06-17 15_39_42-M.E.R.N. Messenger.jpg" className="d-block w-100" alt="" />
                                         <div className="carousel-caption d-md-block">
                                             <h5>M.E.R.N. Messenger</h5>
-                                            <h6><a className="port-button" href="https://mernmessenger.herokuapp.com" target="_blank"><i className="fab fa-github-square"></i>
+                                            <h6><a className="port-button" href="https://mernmessenger.herokuapp.com" rel="noopener noreferrer" target="_blank"><i className="fab fa-github-square"></i>
                                                 Deployment</a></h6>
-                                            <h6><a className="port-button" href="https://github.com/Xybolx/chat" target="_blank"><i className="fab fa-github-square"></i>
+                                            <h6><a className="port-button" href="https://github.com/Xybolx/chat" rel="noopener noreferrer" target="_blank"><i className="fab fa-github-square"></i>
                                                 Repository</a></h6>
                                         </div>
                                     </div>
-                                    <div className="carousel-item" data-interval="100000">
+                                    <div className="carousel-item">
                                         <img src="catfish.jpg" className="d-block w-100" alt="" />
                                         <div className="carousel-caption d-md-block">
                                             <h5>Catfish</h5>
-                                            <h6><a className="port-button" href="https://rocky-fjord-61195.herokuapp.com/" target="_blank"><i className="fab fa-github-square"></i>
+                                            <h6><a className="port-button" href="https://rocky-fjord-61195.herokuapp.com/" rel="noopener noreferrer" target="_blank"><i className="fab fa-github-square"></i>
                                                 Deployment</a></h6>
-                                            <h6><a className="port-button" href="https://github.com/MochaCosine1206/ChatApp" target="_blank"><i className="fab fa-github-square"></i>
+                                            <h6><a className="port-button" href="https://github.com/MochaCosine1206/ChatApp" rel="noopener noreferrer" target="_blank"><i className="fab fa-github-square"></i>
                                                 Repository</a></h6>
                                         </div>
                                     </div>
-                                    <div className="carousel-item" data-interval="100000">
+                                    <div className="carousel-item">
                                         <img src="2019-04-02 08_54_09-Favorite Movies.jpg" className="d-block w-100" alt="" />
                                         <div className="carousel-caption d-md-block">
                                             <h5>Favorite Movies</h5>
-                                            <h6><a className="port-button" href="https://xybolx.github.io/MovieSearch/" target="_blank"><i className="fab fa-github-square"></i>
+                                            <h6><a className="port-button" href="https://xybolx.github.io/MovieSearch/" rel="noopener noreferrer" target="_blank"><i className="fab fa-github-square"></i>
                                                 Deployment</a></h6>
-                                            <h6><a className="port-button" href="https://github.com/Xybolx/MovieSearch" target="_blank"><i className="fab fa-github-square"></i>
+                                            <h6><a className="port-button" href="https://github.com/Xybolx/MovieSearch" rel="noopener noreferrer" target="_blank"><i className="fab fa-github-square"></i>
                                                 Repository</a></h6>
                                         </div>
                                     </div>
-                                    <div className="carousel-item" data-interval="100000">
+                                    <div className="carousel-item">
                                         <img src="2018-12-03 17_03_01-Link's Rupee Collector.jpg" className="d-block w-100" alt="" />
                                         <div className="carousel-caption d-md-block">
                                             <h5>Link's Rupee Collector</h5>
-                                            <h6><a className="port-button" href="https://xybolx.github.io/unit-4-game/" target="_blank"><i className="fab fa-github-square"></i>
+                                            <h6><a className="port-button" href="https://xybolx.github.io/unit-4-game/" rel="noopener noreferrer" target="_blank"><i className="fab fa-github-square"></i>
                                                 Deployment</a></h6>
-                                            <h6><a className="port-button" href="https://github.com/Xybolx/unit-4-game" target="_blank"><i className="fab fa-github-square"></i>
+                                            <h6><a className="port-button" href="https://github.com/Xybolx/unit-4-game" rel="noopener noreferrer" target="_blank"><i className="fab fa-github-square"></i>
+                                                Repository</a></h6>
+                                        </div>
+                                    </div>
+                                    <div className="carousel-item">
+                                        <img src="FriendFinder.jpg" className="d-block w-100" alt="" />
+                                        <div className="carousel-caption d-md-block">
+                                            <h5>Lifeinvader Friend Finder</h5>
+                                            <h6><a className="port-button" href="https://friend-finder-stalk-app.herokuapp.com/" rel="noopener noreferrer" target="_blank"><i className="fab fa-github-square"></i>
+                                                Deployment</a></h6>
+                                            <h6><a className="port-button" href="https://github.com/Xybolx/FriendFinder" rel="noopener noreferrer" target="_blank"><i className="fab fa-github-square"></i>
+                                                Repository</a></h6>
+                                        </div>
+                                    </div>
+                                    <div className="carousel-item">
+                                        <img src="2018-12-05 21_10_52-Star Trek Trivia.jpg" className="d-block w-100" alt="" />
+                                        <div className="carousel-caption d-md-block">
+                                            <h5>Star Trek Trivia</h5>
+                                            <h6><a className="port-button" href="https://xybolx.github.io/TriviaGame/" rel="noopener noreferrer" target="_blank"><i className="fab fa-github-square"></i>
+                                                Deployment</a></h6>
+                                            <h6><a className="port-button" href="https://github.com/Xybolx/TriviaGame" rel="noopener noreferrer" target="_blank"><i className="fab fa-github-square"></i>
                                                 Repository</a></h6>
                                         </div>
                                     </div>
@@ -229,7 +244,6 @@ class Portfolio extends Component {
                         </div>       
                     </div>
                 </div> */}
-                {/* </div> */}
             </div>
         );
     };
