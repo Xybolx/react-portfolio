@@ -52,9 +52,9 @@ p {
   margin-top: 20px;
 }
 
-/* .carousel-item {
-  border: solid rgb(134, 133, 133);
-} */
+.carousel-item {
+  border: solid rgb(128, 119, 119);
+}
 
 .fa-arrow-alt-circle-left,
 .fa-arrow-alt-circle-right {
@@ -75,4 +75,8 @@ p {
 .navbar-dark .navbar-toggler-icon {
   background: transparent;
   width: 40px;
+}
+
+h3 {
+  font-size: 25px;
 }
