@@ -1,9 +1,8 @@
-import React, { Component } from "react";
+import React from "react";
 import { NavLink, Link } from "react-router-dom";
 import Clock from "../components/clock";
 
-class About extends Component {
-    render() {
+const About = () => {
         return (
             <div>
             <nav className="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
@@ -31,6 +30,5 @@ class About extends Component {
             </div>
         );
     };
-};
 
 export default About;

@@ -1,9 +1,8 @@
-import React, { Component } from "react";
+import React from "react";
 import { NavLink } from "react-router-dom";
 import Clock from "../components/clock";
 
-class Contact extends Component {
-    render() {
+const Contact = () => {
         return (
             <div>
                 <div>
@@ -44,6 +43,5 @@ class Contact extends Component {
             </div>
         );
     };
-};
 
 export default Contact;
