@@ -21,12 +21,7 @@ const SpeechRecognition = props => {
         }
     };
 
-    const {
-        listen,
-        stop,
-        supported
-    } = useSpeechRecognition({ onResult, onEnd });
-
+    const { listen, stop, supported } = useSpeechRecognition({ onResult, onEnd });
 
     useEffect(() => {
         window.addEventListener(
@@ -48,17 +43,11 @@ const SpeechRecognition = props => {
     return (
         <>
             <form style={{ display: "none" }} id="speech-recognition-form">
-                <h2>Speech Recognition</h2>
                 {!supported && (
                     <p>Oh no, it looks like your browser doesn&#39;t support Speech Recognition.</p>
                 )}
                 {supported && (
                     <>
-                        <p>
-                            {`Click 'Listen' and start speaking.
-               SpeechRecognition will provide a transcript of what you are saying.`
-                            }
-                        </p>
                         <textarea
                             id="transcript"
                             name="transcript"
