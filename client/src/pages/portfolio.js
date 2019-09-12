@@ -41,7 +41,7 @@ const Portfolio = () => {
                                 <div className="carousel-item">
                                     <img src="2019-09-07 08_33_36-Film Brains.jpg" className="d-block w-100" alt="" />
                                     <div className="carousel-caption d-md-block">
-                                        <h3><i className="far fa-arrow-alt-circle-left" href="#carouselExampleCaptions" role="button" data-slide="prev"></i>Film Brains<i className="far fa-arrow-alt-circle-right" href="#carouselExampleCaptions" role="button" data-slide="next"></i></h3>
+                                        <h3><i className="far fa-arrow-alt-circle-left" href="#carouselExampleCaptions" role="button" data-slide="prev"></i>&nbsp;&nbsp;Film Brains&nbsp;&nbsp;<i className="far fa-arrow-alt-circle-right" href="#carouselExampleCaptions" role="button" data-slide="next"></i></h3>
                                         <h6><a className="port-button" href="https://filmbrains.herokuapp.com/" rel="noopener noreferrer" target="_blank"><i className="fab fa-github-square"></i>
                                             Deployment</a></h6>
                                         <h6><a className="port-button" href="https://github.com/Xybolx/brain" rel="noopener noreferrer" target="_blank"><i className="fab fa-github-square"></i>
@@ -101,7 +101,7 @@ const Portfolio = () => {
                                 <div className="carousel-item">
                                     <img src="2019-07-29 12_26_56-Super, inc..jpg" className="d-block w-100" alt="" />
                                     <div className="carousel-caption d-md-block">
-                                    <h3><i className="far fa-arrow-alt-circle-left" href="#carouselExampleCaptions" role="button" data-slide="prev"></i>&nbsp;Super, inc.&nbsp;<i className="far fa-arrow-alt-circle-right" href="#carouselExampleCaptions" role="button" data-slide="next"></i></h3>
+                                        <h3><i className="far fa-arrow-alt-circle-left" href="#carouselExampleCaptions" role="button" data-slide="prev"></i>&nbsp;&nbsp;Super, inc.&nbsp;&nbsp;<i className="far fa-arrow-alt-circle-right" href="#carouselExampleCaptions" role="button" data-slide="next"></i></h3>
                                         <h6><a className="port-button" href="https://super-inc-portal.herokuapp.com/" rel="noopener noreferrer" target="_blank"><i className="fab fa-github-square"></i>
                                             Deployment</a></h6>
                                         <h6><a className="port-button" href="https://github.com/Xybolx/employee-portal" rel="noopener noreferrer" target="_blank"><i className="fab fa-github-square"></i>
