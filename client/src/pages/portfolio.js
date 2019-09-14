@@ -1,8 +1,42 @@
-import React from "react";
+import React, { useState } from "react";
+import { Col, Carousel, CarouselItem, CarouselIndicators, CarouselControl } from 'reactstrap';
 import { NavLink } from "react-router-dom";
+import { items } from "../components/items";
+import ProjectDetail from "../components/projectDetail";
 import Clock from "../components/clock";
 
 const Portfolio = () => {
+
+    // State
+    const [activeIndex, setActiveIndex] = useState(0);
+    const [isAnimating, setIsAnimating] = useState(false);
+
+    // Carousel functions
+    const onExiting = () => {
+        setIsAnimating(true);
+    }
+
+    const onExited = () => {
+        setIsAnimating(false);
+    }
+
+    const next = () => {
+        if (isAnimating) return;
+        const nextIndex = activeIndex === items.length - 1 ? 0 : activeIndex + 1;
+        setActiveIndex(nextIndex);
+    }
+
+    const previous = () => {
+        if (isAnimating) return;
+        const nextIndex = activeIndex === 0 ? items.length - 1 : activeIndex - 1;
+        setActiveIndex(nextIndex);
+    }
+
+    const goToIndex = newIndex => {
+        if (isAnimating) return;
+        setActiveIndex(newIndex);
+    };
+
         return (
             <div>
                 <nav className="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
@@ -24,8 +58,54 @@ const Portfolio = () => {
                 </nav>
                 <br />
                 <h1>My Portfolio</h1>
-                <div className="col-md-6 offset-md-3">
-                    <div className="bd-example">
+                <Col sm="12" md={{ size: 6, offset: 3 }}>
+                    {items.length ? (
+                        <Carousel
+                            pause="hover"
+                            keyboard={false}
+                            interval={false}
+                            activeIndex={activeIndex}
+                            next={next}
+                            previous={previous}
+                        >
+                            <CarouselIndicators
+                                items={items}
+                                activeIndex={activeIndex}
+                                onClickHandler={goToIndex}
+                            />
+                            {items.map((item, index) => {
+                                return (
+                                    <CarouselItem
+                                        onExiting={onExiting}
+                                        onExited={onExited}
+                                        key={index}
+                                    >
+                                        <ProjectDetail
+                                            title={item.title}
+                                            src={item.src}
+                                            deployHref={item.deployHref}
+                                            repoHref={item.repoHref}
+                                        />
+                                    </CarouselItem>
+                                );
+                            })}
+                            <CarouselControl
+                                direction="prev"
+                                directionText="Prev"
+                                onClickHandler={previous}
+                            >
+                            </CarouselControl>
+                            <CarouselControl
+                                direction="next"
+                                directionText="Next"
+                                onClickHandler={next}
+                            >
+                            </CarouselControl>
+                        </Carousel>
+                    ) : (
+                            <h4>Loading...</h4>
+                        )}
+                    {/* <div className="bd-example">
                         <div id="carouselExampleCaptions" className="carousel slide" data-ride="carousel">
                             <div className="carousel-inner">
                                 <div className="carousel-item active">
@@ -110,8 +190,8 @@ const Portfolio = () => {
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
+                    </div> */}
+                </Col>
             </div>
         );
     };

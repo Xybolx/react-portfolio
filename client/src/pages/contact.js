@@ -38,7 +38,7 @@ const Contact = () => {
                             </a>
                         </span>
                     </div>
-                    <img className="img-fluid" src="plane.gif" alt="" />
+                    <img style={{ height: "auto", width: 500 }} className="img-fluid" src="plane.gif" alt="" />
                 </div>
             </div>
         );

@@ -21,10 +21,20 @@ body {
   padding: 0 0 0 0;
 }
 
+.project-container {
+  height: 75%;
+}
+
 .img-fluid {
-  max-width: 100%;
+  height: 100%;
+  width: 100%;
   /* border: solid rgba(128, 128, 128, 0.568);
   outline: solid black; */
+}
+
+.img-container {
+  max-width: fit-content;
+  max-height: fit-content;
 }
 
 .linkDiv {
@@ -79,4 +89,48 @@ p {
 
 h3 {
   font-size: 25px;
+  color: white;
+}
+
+.carousel-indicators {
+  display: none !important;
+}
+
+.details,
+.carousel {
+  background: #343a40;
+}
+
+.details {
+  height: 100px;
+}
+
+.carousel-control-next {
+  background: url("https://slm-assets1.secondlife.com/assets/15071879/original/gif_LED_Arrow_White_AlphaAlpha_Blue_4x2.gif?1474027277");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  transform: rotate(180deg);
+  top: 80%;
+  cursor: pointer;
+  height: 12%;
+}
+
+.carousel-control-prev {
+  background: url("https://slm-assets1.secondlife.com/assets/15071879/original/gif_LED_Arrow_White_AlphaAlpha_Blue_4x2.gif?1474027277");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  top: 80%;
+  cursor: pointer;
+  height: 12%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  display: none !important;
+}
+
+.project-title {
+  margin-top: 5px;
 }

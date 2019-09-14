@@ -3,6 +3,9 @@ import useSpeechRecognition from './useSpeechRecognition';
 
 const SpeechRecognition = props => {
     const [value, setValue] = useState('');
+    const [isAbout, setIsAbout] = useState(false);
+    const [isContact, setIsContact] = useState(false);
+    const [isPortfolio, setIsPortfolio] = useState(false);
 
     const onEnd = () => {
         stop();
@@ -11,13 +14,16 @@ const SpeechRecognition = props => {
     const onResult = (result) => {
         setValue(result);
         if (result === "about") {
-            props.getAbout();
+            setIsAbout(true);
         }
         if (result === "contact") {
-            props.getContact();
+            setIsContact(true);
         }
         if (result === "portfolio") {
-            props.getPortfolio();
+            setIsPortfolio(true);
+        }
+        if (result === "next") {
+            props.next();
         }
     };
 
@@ -31,13 +37,13 @@ const SpeechRecognition = props => {
         return window.removeEventListener("mousedown", null)
     }, [listen]);
 
-    if (props.isAbout) {
+    if (isAbout) {
         window.location = "/";
     }
-    if (props.isContact) {
+    if (isContact) {
         window.location = "/contact";
     }
-    if (props.isPortfolio) {
+    if (isPortfolio) {
         window.location = "/portfolio";
     }
     return (
