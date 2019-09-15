@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Redirect } from "react-router-dom";
 import useSpeechRecognition from './useSpeechRecognition';
 
 const SpeechRecognition = props => {
@@ -15,36 +16,40 @@ const SpeechRecognition = props => {
         setValue(result);
         if (result === "about") {
             setIsAbout(true);
+            setIsContact(false);
+            setIsPortfolio(false);
         }
         if (result === "contact") {
             setIsContact(true);
+            setIsAbout(false);
+            setIsPortfolio(false);
         }
         if (result === "portfolio") {
             setIsPortfolio(true);
-        }
-        if (result === "next") {
-            props.next();
+            setIsContact(false);
+            setIsAbout(false);
         }
     };
 
     const { listen, stop, supported } = useSpeechRecognition({ onResult, onEnd });
 
     useEffect(() => {
-        window.addEventListener(
-            "mousedown",
-            listen()
-        )
-        return window.removeEventListener("mousedown", null)
-    }, [listen]);
+        window.addEventListener("load", () => {
+            listen();
+        });
+        return window.removeEventListener("load", () => {
+            stop();
+        });
+    }, [listen, stop]);
 
     if (isAbout) {
-        window.location = "/";
+        return <Redirect to="/" />
     }
     if (isContact) {
-        window.location = "/contact";
+        return <Redirect to="/contact" />
     }
     if (isPortfolio) {
-        window.location = "/portfolio";
+        return <Redirect to="/portfolio" />
     }
     return (
         <>
