@@ -1,12 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import { Redirect } from "react-router-dom";
 import useSpeechRecognition from './useSpeechRecognition';
 
 const SpeechRecognition = props => {
     const [value, setValue] = useState('');
-    const [isAbout, setIsAbout] = useState(false);
-    const [isContact, setIsContact] = useState(false);
-    const [isPortfolio, setIsPortfolio] = useState(false);
 
     const onEnd = () => {
         stop();
@@ -15,19 +11,13 @@ const SpeechRecognition = props => {
     const onResult = (result) => {
         setValue(result);
         if (result === "about") {
-            setIsAbout(true);
-            setIsContact(false);
-            setIsPortfolio(false);
+            window.location = "/";
         }
         if (result === "contact") {
-            setIsContact(true);
-            setIsAbout(false);
-            setIsPortfolio(false);
+           window.location = "/contact";
         }
         if (result === "portfolio") {
-            setIsPortfolio(true);
-            setIsContact(false);
-            setIsAbout(false);
+            window.location = "/portfolio"
         }
     };
 
@@ -42,15 +32,6 @@ const SpeechRecognition = props => {
         });
     }, [listen, stop]);
 
-    if (isAbout) {
-        return <Redirect to="/" />
-    }
-    if (isContact) {
-        return <Redirect to="/contact" />
-    }
-    if (isPortfolio) {
-        return <Redirect to="/portfolio" />
-    }
     return (
         <>
             <form style={{ display: "none" }} id="speech-recognition-form">
