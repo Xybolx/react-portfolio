@@ -4,6 +4,12 @@ import useSpeechRecognition from './useSpeechRecognition';
 const SpeechRecognition = props => {
     const [value, setValue] = useState('');
 
+    const [about, setAbout] = useState(false);
+
+    const [contact, setContact] = useState(false);
+
+    const [portfolio, setPortfolio] = useState(false);
+
     const onEnd = () => {
         stop();
     };
@@ -11,15 +17,40 @@ const SpeechRecognition = props => {
     const onResult = (result) => {
         setValue(result);
         if (result === "about") {
-            window.location = "/";
+            setAbout(true);
         }
         if (result === "contact") {
-           window.location = "/contact";
+            setContact(true);
         }
         if (result === "portfolio") {
-            window.location = "/portfolio"
+            setPortfolio(true);
         }
     };
+
+    useEffect(() => {
+        if (about) {
+            const aboutTimer = setTimeout(setAbout(false), 500);
+            window.location = "/";
+            return () => {
+                clearTimeout(aboutTimer);
+            };
+        }
+        if (contact) {
+            const contactTimer = setTimeout(setContact(false), 500);
+            window.location = "/contact";
+            return () => {
+                clearTimeout(contactTimer);
+            };
+        }
+        if (portfolio) {
+            const portfolioTimer = setTimeout(setPortfolio(false), 500);
+            window.location = "/portfolio";
+            return () => {
+                clearTimeout(portfolioTimer);
+            };
+        }
+
+    }, [about, contact, portfolio]);
 
     const { listen, stop, supported } = useSpeechRecognition({ onResult, onEnd });
 
