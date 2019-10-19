@@ -47,4 +47,10 @@ export const items = [
         deployHref: "https://super-inc-portal.herokuapp.com",
         repoHref: "https://github.com/Xybolx/employee-portal"
     },
+    {
+        title: "Hooks Lesson",
+        src: "hooks.jpg",
+        deployHref: "https://hooks-lesson.herokuapp.com",
+        repoHref: "https://github.com/Xybolx/hooks-lesson"
+    },
 ];
