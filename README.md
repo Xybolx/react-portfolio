@@ -1,6 +1,6 @@
-#My React Portfolio
+##My React Portfolio
 
-This is my React Portfolio.
+This is my React Portfolio. You can navigate by voice by saying "about", "contact", or "portfolio". Made with React Hooks API.
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
