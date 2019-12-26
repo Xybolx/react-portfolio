@@ -6,10 +6,9 @@ import Contact from "./pages/contact";
 import Portfolio from "./pages/portfolio";
 import './App.css';
 
-function App() {
-
+const App = () => {
   return (
-    <div className="jumbotron jumbotron-fluid App">
+    <div className="App">
       <SpeechRecognition />
       <Switch>
         <Route exact path="/" component={About} />
@@ -18,6 +17,6 @@ function App() {
       </Switch>
     </div>
   );
-}
+};
 
 export default App;

@@ -28,8 +28,12 @@ body {
 .img-fluid {
   height: 100%;
   width: 100%;
-  /* border: solid rgba(128, 128, 128, 0.568);
-  outline: solid black; */
+}
+
+.img-loader {
+  animation: App-logo-spin 2s infinite;
+  border-radius: 100%;
+  border: 3px solid cyan;
 }
 
 .img-container {
