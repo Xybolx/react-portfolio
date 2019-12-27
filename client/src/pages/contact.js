@@ -6,10 +6,10 @@ const Contact = () => {
         return (
             <div>
                 <div>
-                    <nav className="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+                    <nav className="navbar sticky-top navbar-expand-lg navbar-dark">
                         <NavLink className="navbar-brand" to="/">
-                            <img src="https://jsonworld.com/content/uploads/blog-images/react.png" width="40" height="30" className="d-inline-block align-top" alt="" />
-                            Mat Hayward
+                            <img style={{ visibility: "hidden" }} src="https://jsonworld.com/content/uploads/blog-images/react.png" width="40" height="30" className="d-inline-block align-top" alt="" />
+                            &nbsp;Mat Hayward
                 <Clock />
                         </NavLink>
                         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">

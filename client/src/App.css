@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Do+Hyeon&display=swap');
+
 .App {
+  font-family: 'Do Hyeon', sans-serif;
   text-align: center;
   overflow-x: hidden;
 }
@@ -13,6 +16,15 @@ body {
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@keyframes FadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
   }
 }
 
@@ -58,7 +70,7 @@ p {
 
 .carousel-caption {
   position: static;
-  background: #343a40;
+  background: #343a4077;
 }
 
 .bd-example {
@@ -67,7 +79,8 @@ p {
 }
 
 .carousel-item {
-  border: solid rgb(128, 119, 119);
+  /* border: double rgb(3, 255, 255); */
+  animation: FadeIn 2s;
 }
 
 .fa-arrow-alt-circle-left,
@@ -100,12 +113,17 @@ h3 {
   display: none !important;
 }
 
-.details,
 .carousel {
-  background: #343a40;
+  background: url("./imgs/react-bg.png");
+  background-size: cover;
+  background-position-x: center;
+  background-repeat: no-repeat;
+  /* border: double rgb(5, 5, 5); */
 }
 
 .details {
+  /* background: #343a40; */
+  /* border: double rgb(5, 5, 5); */
   height: 100px;
 }
 
@@ -138,3 +156,26 @@ h3 {
 .project-title {
   margin-top: 5px;
 }
+
+.port-button {
+  color: white;
+  text-shadow: .5px .5px .5px cyan;
+}
+
+.port-button:hover {
+  color: cyan;
+}
+
+.navbar {
+  background: url("./imgs/react-bg.png"), black;
+  background-size: contain;
+  background-position-x: left;
+  background-repeat: no-repeat;
+}
+
+/* .navbar-toggler {
+  background: url("./imgs/react-bg.png");
+  background-size: cover;
+  background-position-x: right;
+  background-repeat: no-repeat;
+} */

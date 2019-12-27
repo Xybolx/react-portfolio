@@ -8,6 +8,7 @@ const Projects = () => {
     // State
     const [activeIndex, setActiveIndex] = useState(0);
     const [isAnimating, setIsAnimating] = useState(false);
+    // const [portfolioItems, setPortfolioItems] = useState([]);
 
     // Carousel functions
     const onExiting = () => {
@@ -44,6 +45,7 @@ const Projects = () => {
                     activeIndex={activeIndex}
                     next={next}
                     previous={previous}
+                    slide={false}
                 >
                     <CarouselIndicators
                         items={items}
