@@ -7,10 +7,10 @@ const Contact = () => {
             <div>
                 <div>
                     <nav className="navbar sticky-top navbar-expand-lg navbar-dark">
+                        <img style={{ visibility: "hidden" }} src="https://jsonworld.com/content/uploads/blog-images/react.png" width="40" height="30" className="d-inline-block align-top" alt="" />
                         <NavLink className="navbar-brand" to="/">
-                            <img style={{ visibility: "hidden" }} src="https://jsonworld.com/content/uploads/blog-images/react.png" width="40" height="30" className="d-inline-block align-top" alt="" />
                             &nbsp;Mat Hayward
-                <Clock />
+                            <Clock />
                         </NavLink>
                         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                             <span className="navbar-toggler-icon fas fa-bars d-inline-block align-top"></span>
