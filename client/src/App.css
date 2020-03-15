@@ -128,24 +128,26 @@ h3 {
 }
 
 .carousel-control-next {
-  background: url("https://slm-assets1.secondlife.com/assets/15071879/original/gif_LED_Arrow_White_AlphaAlpha_Blue_4x2.gif?1474027277");
+  background: url("./imgs/right-arrow-rotate-blue.gif");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: right;
-  transform: rotate(180deg);
   top: 80%;
   cursor: pointer;
   height: 12%;
+  margin-right: 15px;
 }
 
 .carousel-control-prev {
-  background: url("https://slm-assets1.secondlife.com/assets/15071879/original/gif_LED_Arrow_White_AlphaAlpha_Blue_4x2.gif?1474027277");
+  background: url("./imgs/right-arrow-rotate-blue.gif");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: right;
   top: 80%;
+  transform: rotate(180deg);
   cursor: pointer;
   height: 12%;
+  margin-left: 15px;
 }
 
 .carousel-control-prev-icon,
