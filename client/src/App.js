@@ -5,10 +5,12 @@ import About from "./pages/about";
 import Contact from "./pages/contact";
 import Portfolio from "./pages/portfolio";
 import './App.css';
+import TopNav from './components/navbar';
 
 const App = () => {
   return (
     <div className="App">
+      <TopNav />
       <SpeechRecognition />
       <Switch>
         <Route exact path="/" component={About} />

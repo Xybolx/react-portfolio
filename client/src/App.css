@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Do+Hyeon&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Changa&display=swap');
+
 
 .App {
-  font-family: 'Do Hyeon', sans-serif;
+  font-family: 'Changa', sans-serif;
   text-align: center;
   overflow-x: hidden;
 }
