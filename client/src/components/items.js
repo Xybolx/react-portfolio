@@ -1,5 +1,11 @@
 export const items = [
     {
+        title: "MPS School Locator",
+        src: "01_35_02.jpg",
+        deployHref: "https://choosemesa.org",
+        // repoHref: "#"
+    },
+    {
         title: "M.E.R.N. Messenger", 
         src: "2019-06-17 15_39_42-M.E.R.N. Messenger.jpg",
         deployHref: "https://mernmessenger.herokuapp.com",
