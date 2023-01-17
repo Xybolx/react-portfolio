@@ -24,7 +24,6 @@ jobs:
 
     - name: Build
       run: |
-        cd client
         npm install
         npx webpack
         npm run prod
