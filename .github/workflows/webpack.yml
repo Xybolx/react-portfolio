@@ -23,7 +23,7 @@ jobs:
         node-version: ${{ matrix.node-version }}
 
     - name: Build
-      run: | cd client
       run: |
+        cd client
         npm install
         npx webpack
