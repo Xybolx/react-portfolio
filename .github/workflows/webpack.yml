@@ -27,4 +27,4 @@ jobs:
         cd client
         npm install
         npx webpack
-        npm start
+        npm build
