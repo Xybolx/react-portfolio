@@ -2,7 +2,7 @@ name: NodeJS with Webpack
 
 on:
   push:
-    branches: [ "master", "gh_pages"]
+    branches: [ "gh_pages"]
   pull_request:
     branches: [ "master" ]
 
